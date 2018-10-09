@@ -1,6 +1,9 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        StrategicPlayer strategicPlayer = new StrategicPlayerImpl();
+
+        strategicPlayer.beginGame(12, 12, 12);
+
     }
 }
