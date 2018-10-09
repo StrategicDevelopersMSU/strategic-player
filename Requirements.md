@@ -1,4 +1,4 @@
-#Description
+<b>Description</b>
 Implements the interface for a strategic player who is playing the Spin-the-Wheel Coin Matching Game.
 
 #Acceptance Criteria
