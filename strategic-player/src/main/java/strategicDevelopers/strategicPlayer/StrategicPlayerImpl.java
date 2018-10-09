@@ -1,4 +1,6 @@
-public class StrategicPlayerImpl implements StrategicPlayer{
+package java.strategicDevelopers.strategicPlayer;
+
+public class StrategicPlayerImpl implements StrategicPlayer {
    private int currentSpinCount = 0;
    private int coinsPerWheel;
    private int revealsPerSpin;

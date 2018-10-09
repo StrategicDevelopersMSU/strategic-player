@@ -1,4 +1,4 @@
-package strategicDevelopers.strategicPlayer;
+package java.strategicDevelopers.strategicPlayer;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
