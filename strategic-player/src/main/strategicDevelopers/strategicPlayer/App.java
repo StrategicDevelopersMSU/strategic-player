@@ -1,4 +1,4 @@
-package java.strategicDevelopers.strategicPlayer;
+package strategicDevelopers.strategicPlayer;
 
 /**
  * Hello world!
