@@ -15,11 +15,21 @@ public class StrategicPlayerImpl implements StrategicPlayer {
 
    @Override
    public CharSequence getSlotsToReveal() {
-      return null;
+      StringBuilder slotsToReveal = new StringBuilder();
+
+      if(coinsPerWheel == revealsPerSpin)
+      {
+         for(int i = 0; i < revealsPerSpin; i++)
+         {
+            slotsToReveal.append("? ");
+         }
+      }
+      return slotsToReveal.toString();
    }
 
    @Override
    public CharSequence getNewCoinStates(CharSequence revealedPattern) {
+
       return null;
    }
 }
