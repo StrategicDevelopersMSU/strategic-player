@@ -1,4 +1,4 @@
-package java.strategicDevelopers.strategicPlayer;
+package strategicDevelopers.strategicPlayer;
 
 /**
  * A player of the Spin-the-Wheel Coin Matching Game.

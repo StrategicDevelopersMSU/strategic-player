@@ -1,4 +1,4 @@
-package java.strategicDevelopers.strategicPlayer;
+package strategicDevelopers.strategicPlayer;
 
 public class StrategicPlayerImpl implements StrategicPlayer {
    private int currentSpinCount = 0;
