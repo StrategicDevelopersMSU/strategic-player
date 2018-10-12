@@ -8,6 +8,8 @@ public class revealTests {
   @Test
   public void revealTest(){
     StrategicPlayerImpl stratplay = new StrategicPlayerImpl();
-    
+    assertTrue(stratplay.getSlotsToReveal().equals(reveal0));
+    stratplay.incCurrentSpinCount();
+    assertTrue(stratplay.getSlotsToReveal().equals(reveal1));
   }
 }

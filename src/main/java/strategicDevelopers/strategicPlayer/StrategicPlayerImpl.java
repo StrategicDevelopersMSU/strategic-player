@@ -40,4 +40,9 @@ public class StrategicPlayerImpl implements StrategicPlayer {
    public CharSequence getNewCoinStates(CharSequence revealedPattern) {
       return null;
    }
+
+   /*
+    * For testing, increments currentSpinCount
+    */
+   void incCurrentSpinCount(){currentSpinCount+=1;}
 }
