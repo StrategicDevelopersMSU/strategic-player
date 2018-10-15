@@ -5,12 +5,13 @@
 <div align="center">
 
 
-[![GitHub release][img-version-badge]]
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
+[![Dependency Status](https://www.versioneye.com/user/projects/52ddcaabec13750540000106/badge.svg)](https://www.versioneye.com/user/projects/52ddcaabec13750540000106)
 
 </div>
 
 
-**Strategic Player ** is a 
+Strategic Player is a 
 
 ## Important Notices
 * `master` branch file path is the **only** stable branch.
