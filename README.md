@@ -21,7 +21,7 @@ Strategic Player is a
 
 
 ```
-usage: PLACEHOLDER [-h] [-v] [-s] [-l] [-q] [-w] [-c] [--fontawesome]
+usage: PLACEHOLDER 
 
 * Version: 1.0.0
 
