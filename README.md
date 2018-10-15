@@ -4,9 +4,7 @@
 
 <div align="center">
 
-
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
-[![Dependency Status](https://www.versioneye.com/user/projects/52ddcaabec13750540000106/badge.svg)](https://www.versioneye.com/user/projects/52ddcaabec13750540000106)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.cognitor.cassandra/cassandra-migration/badge.svg)](https://maven-badges.herokuapp.com/maven-central//org.cognitor.cassandra/cassandra-migration)
 
 </div>
 
