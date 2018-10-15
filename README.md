@@ -33,3 +33,7 @@ usage: PLACEHOLDER
 
 
 ## Authors
+
+* Travis Rebhan
+* Douglas Mclaughlin
+* Ben LeDoux
