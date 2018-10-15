@@ -4,9 +4,7 @@
 
 <div align="center">
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/cz.jirutka.rsql/rsql-parser/badge.svg)](https://maven-badges.herokuapp.com/maven-central/cz.jirutka.rsql/rsql-parser)
-
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/{group_id}/{artifact_id}/badge.svg?style={style})](https://maven-badges.herokuapp.com/maven-central/{group_id}/{artifact_id}/badge.(svg|png)?style={style})
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/{group_id}/{artifact_id}/badge.svg?style={style})](https://maven-badges.herokuapp.com/maven-central/{group_id}/{artifact_id}/badge.png?style={style})
 
 </div>
 
