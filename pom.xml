@@ -3,11 +3,29 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>strategicDevelopers.strategicPlayer</groupId>
   <artifactId>strategic-player</artifactId>
-  <packaging>jar</packaging>
   <version>1.0</version>
   <name>strategic-player</name>
+
+  <properties>
+    <jacoco.version>0.7.5.201505241946</jacoco.version>
+    <junit.version>4.10</junit.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+
+  <dependencies> 		
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>${junit.version}</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
   <build>
     <plugins>
+
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
@@ -21,20 +39,49 @@
           </archive>
         </configuration>
       </plugin>
+
+      <plugin>
+	<groupId>org.jacoco</groupId>
+	<artifactId>jacoco-maven-plugin</artifactId>
+	<version>${jacoco.version}</version>
+	<executions>
+	  <execution>
+	    <id>prepare-agent</id>
+	    <goals>
+	      <goal>prepare-agent</goal>
+	    </goals>
+	  </execution>
+
+          <execution>
+	    <id>report</id>
+	    <phase>prepare-package</phase>
+	    <goals>
+	      <goal>report</goal>
+	    </goals>
+	  </execution>
+	
+	  <execution>
+	    <id>post-unit-test</id>
+	    <phase>test</phase>
+	    <goals>
+	      <goal>report</goal>
+	    </goals>
+	    <configuration>
+              <!-- Sets the path to the file which contains the execution data. -->
+	      <dataFile>target/jacoco.exec</dataFile>
+	      <!-- Sets the output directory for the code coverage report. -->
+	      <outputDirectory>target/jacoco-ut</outputDirectory>
+	    </configuration>
+	  </execution>
+
+	</executions>
+	<configuration>
+	  <systemPropertyVariables>
+	    <jacoco-agent.destfile>target/jacoco.exec</jacoco-agent.destfile>
+	  </systemPropertyVariables>
+	</configuration>
+      </plugin>
     </plugins>
+
   </build>
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
-  </properties>
-  <url>http://maven.apache.org</url>
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.10</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
 </project>
