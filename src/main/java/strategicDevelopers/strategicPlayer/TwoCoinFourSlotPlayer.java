@@ -3,7 +3,7 @@ package strategicDevelopers.strategicPlayer;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TwoCoinFourSlotPlayer implements StrategicPlayer {
+public class TwoCoinFourSlotPlayer implements strategicDevelopers.strategicPlayer.StrategicPlayer {
    private static final char HEADS_COIN_STATE = 'H';
    private static final char TAILS_COIN_STATE = 'T';
 
@@ -12,6 +12,21 @@ public class TwoCoinFourSlotPlayer implements StrategicPlayer {
    private int revealsPerSpin;
    private int maxNumSpins;
    private char desiredEndCoinState;
+
+   /**
+    * Default constructor, implements a 4 coin 2 reveal game with
+    * no max spins (represented by a maxNumSpins < 0)
+    */
+   public void StrategicPlayerImpl(){
+      beginGame(4, 2, -1);
+   }
+
+   /**
+    * Constructor, with variable max spins
+    */
+   public void StrategicPlayerImpl(int maxNumSpins){
+      beginGame(4, 2, maxNumSpins);
+   }
 
    @Override
    public void beginGame(int coinsPerWheel, int revealsPerSpin, int maxNumSpins) {
@@ -22,7 +37,10 @@ public class TwoCoinFourSlotPlayer implements StrategicPlayer {
 
    @Override
    public CharSequence getSlotsToReveal() {
-      return null;
+      if(currentSpinCount%2 == 0)
+         return "?-?-";
+      else
+         return "??--";
    }
 
    @Override
@@ -100,6 +118,11 @@ public class TwoCoinFourSlotPlayer implements StrategicPlayer {
          }
       }
    }
+
+   /*
+ * For testing, increments currentSpinCount
+ */
+   void incCurrentSpinCount(){currentSpinCount+=1;}
 
    public int getCoinsPerWheel() {
       return coinsPerWheel;

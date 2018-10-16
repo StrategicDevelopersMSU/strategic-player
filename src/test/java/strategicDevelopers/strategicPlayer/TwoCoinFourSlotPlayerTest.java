@@ -1,6 +1,7 @@
+package strategicDevelopers.strategicPlayer;
+
 import org.junit.Test;
 
-import strategicDevelopers.strategicPlayer.TwoCoinFourSlotPlayer;
 
 
 public class TwoCoinFourSlotPlayerTest {
