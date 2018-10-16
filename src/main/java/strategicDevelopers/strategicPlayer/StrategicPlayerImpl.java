@@ -6,6 +6,7 @@ public class StrategicPlayerImpl implements StrategicPlayer {
    private int revealsPerSpin;
    private int maxNumSpins;
 
+
    /**
     * Default constructor, implements a 4 coin 2 reveal game with
     * no max spins (represented by a maxNumSpins < 0)
@@ -45,4 +46,5 @@ public class StrategicPlayerImpl implements StrategicPlayer {
     * For testing, increments currentSpinCount
     */
    void incCurrentSpinCount(){currentSpinCount+=1;}
+
 }
