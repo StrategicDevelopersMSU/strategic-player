@@ -11,7 +11,7 @@ public class TwoCoinFourSlotPlayer implements StrategicPlayer {
    private int coinsPerWheel;
    private int revealsPerSpin;
    private int maxNumSpins;
-   private String desiredEndCoinState;
+   private char desiredEndCoinState;
 
    @Override
    public void beginGame(int coinsPerWheel, int revealsPerSpin, int maxNumSpins) {
@@ -31,27 +31,25 @@ public class TwoCoinFourSlotPlayer implements StrategicPlayer {
 
       setDesiredEndCoinState(numberOfCoinOccurences);
 
-      CharSequence strategicCoinPattern = replaceQuestionMarkWithDesiredCoinState(revealedPattern, desiredEndCoinState);
+      CharSequence strategicCoinPattern = replaceQuestionMarkWithDesiredCoinState(revealedPattern);
 
       return strategicCoinPattern;
    }
 
-   private CharSequence replaceQuestionMarkWithDesiredCoinState(CharSequence revealedPattern, String desiredEndCoinState)
+   private CharSequence replaceQuestionMarkWithDesiredCoinState(CharSequence revealedPattern)
    {
       StringBuilder stringBuilder = new StringBuilder();
 
       for(int i = 0; i < revealedPattern.length(); i++)
       {
          char currentChar = revealedPattern.charAt(i);
-         if(currentChar == '?')
+         if(currentChar != ' ' && currentChar != '-' && currentChar != desiredEndCoinState )
          {
             stringBuilder.append(desiredEndCoinState);
-            stringBuilder.append(" ");
          }
          else
          {
             stringBuilder.append(currentChar);
-            stringBuilder.append(" ");
          }
       }
 
@@ -90,15 +88,15 @@ public class TwoCoinFourSlotPlayer implements StrategicPlayer {
       int numOfHeadsInPattern = coinOccurrences.get("numOfHeads");
       int numOfTailsInPattern = coinOccurrences.get("numOfTails");
 
-      if(currentSpinCount == 1)
+      if(currentSpinCount <= 1)
       {
          if(numOfHeadsInPattern == 2)
          {
-            desiredEndCoinState = "T";
+            desiredEndCoinState = 'T';
          }
          if(numOfTailsInPattern == 2)
          {
-            desiredEndCoinState = "H";
+            desiredEndCoinState = 'H';
          }
       }
    }

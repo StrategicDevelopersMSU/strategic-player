@@ -20,4 +20,15 @@ public class TwoCoinFourSlotPlayerTest {
       assert strategicPlayer.getCoinsPerWheel() == COINS_PER_WHEEL;
       assert strategicPlayer.getRevealsPerSpin() == REVEALS_PER_SPIN;
    }
+
+   @Test
+   public void testNewCoinStates()
+   {
+      TwoCoinFourSlotPlayer strategicPlayer = new TwoCoinFourSlotPlayer();
+      CharSequence newCoinStates = strategicPlayer.getNewCoinStates("H H - -");
+      CharSequence expectedState = "T T - -";
+
+      assert newCoinStates.equals(expectedState);
+
+   }
 }
