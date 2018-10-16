@@ -9,28 +9,10 @@
 </div>
 
 
-Strategic Player is a 
+Strategic Player is a strategy application designed to run on top of a specific game platform and provide moves autonomously, implementing strategy to provide game results to the end user.  
 
 ## Important Notices
 * `master` branch file path is the **only** stable branch.
-
-## Table of Contents
-
-[**Features**]
-
-
-
-```
-usage: PLACEHOLDER 
-
-* Version: 1.0.0
-
-```
-
-#### Examples
-
-	./PLACEHOLDER
-
 
 ## Authors
 
