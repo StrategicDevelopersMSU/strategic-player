@@ -5,6 +5,7 @@
 <div align="center">
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/net.kyori/bootstrap/badge.svg?style={style})](https://maven-badges.herokuapp.com/maven-central/net.kyori/bootstrap/badge.png?style={style})
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 </div>
 
