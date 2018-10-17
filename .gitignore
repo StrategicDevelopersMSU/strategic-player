@@ -1,3 +1,8 @@
 target/**
 pmd/**
-jacoco*
+jacoco**
+test/**
+formattedsrc/**
+stylecheck/**
+build/**
+doc/**
