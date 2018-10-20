@@ -47,4 +47,10 @@ public class StrategicPlayerImpl implements StrategicPlayer {
     */
    void incCurrentSpinCount(){currentSpinCount+=1;}
 
+   /**
+    * Main class for testing
+    */
+    public static void main(String[] args){
+      StrategicPlayerImpl sp = new StrategicPlayerImpl();
+    }
 }
