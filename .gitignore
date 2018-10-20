@@ -6,3 +6,4 @@ formattedsrc/**
 stylecheck/**
 build/**
 doc/**
+.idea/
