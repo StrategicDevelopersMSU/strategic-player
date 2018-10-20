@@ -2,9 +2,9 @@ package strategicDevelopers.strategicPlayer;
 
 public class StrategicPlayerImpl implements StrategicPlayer {
    private int currentSpinCount = 0;
-   private int coinsPerWheel;
-   private int revealsPerSpin;
-   private int maxNumSpins;
+   int coinsPerWheel;
+   int revealsPerSpin;
+   int maxNumSpins;
 
 
    /**
@@ -31,10 +31,12 @@ public class StrategicPlayerImpl implements StrategicPlayer {
 
    @Override
    public CharSequence getSlotsToReveal() {
-     if(currentSpinCount%2 == 0)
+     if(currentSpinCount%2 == 0){
        return "?-?-";
-     else
+     }
+     else{
        return "??--";
+     }
    }
 
    @Override
@@ -52,5 +54,6 @@ public class StrategicPlayerImpl implements StrategicPlayer {
     */
     public static void main(String[] args){
       StrategicPlayerImpl sp = new StrategicPlayerImpl();
+      System.out.println(sp.getSlotsToReveal());
     }
 }
