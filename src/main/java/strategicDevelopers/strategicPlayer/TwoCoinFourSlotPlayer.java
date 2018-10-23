@@ -47,7 +47,10 @@ public class TwoCoinFourSlotPlayer implements StrategicPlayer {
    public CharSequence getNewCoinStates(CharSequence revealedPattern) {
       Map<String, Integer> numberOfCoinOccurences = getNumberOfCoinOccurrencesInPattern(revealedPattern);
 
-      setDesiredEndCoinState(numberOfCoinOccurences);
+      if(currentSpinCount <= 1)
+      {
+          setDesiredEndCoinState(numberOfCoinOccurences);
+      }
 
       CharSequence strategicCoinPattern = replaceQuestionMarkWithDesiredCoinState(revealedPattern);
 
@@ -112,9 +115,12 @@ public class TwoCoinFourSlotPlayer implements StrategicPlayer {
          {
             desiredEndCoinState = 'T';
          }
-         if(numOfTailsInPattern == 2)
+         else if(numOfTailsInPattern == 2)
          {
             desiredEndCoinState = 'H';
+         }
+         else{
+             desiredEndCoinState = 'H';
          }
       }
    }
