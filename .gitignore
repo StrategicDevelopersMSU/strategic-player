@@ -1,1 +1,10 @@
 target/**
+pmd/**
+jacoco**
+test/**
+formattedsrc/**
+stylecheck/**
+build/**
+doc/**
+.idea/
+*.iml
