@@ -11,14 +11,14 @@ public class StrategicPlayerImpl implements StrategicPlayer {
     * Default constructor, implements a 4 coin 2 reveal game with
     * no max spins (represented by a maxNumSpins < 0)
     */
-   public void StrategicPlayerImpl(){
+   public StrategicPlayerImpl(){
       beginGame(4, 2, -1);
    }
     
    /**
     * Constructor, with variable max spins
     */
-   public void StrategicPlayerImpl(int maxNumSpins){
+   public StrategicPlayerImpl(int maxNumSpins){
       beginGame(4, 2, maxNumSpins);
    }
   

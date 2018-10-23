@@ -7,3 +7,4 @@ stylecheck/**
 build/**
 doc/**
 .idea/
+*.iml
