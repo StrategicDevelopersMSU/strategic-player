@@ -1,6 +1,6 @@
 target/**
 pmd/**
-jacoco**
+jacoco/**
 test/**
 formattedsrc/**
 stylecheck/**
