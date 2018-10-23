@@ -3,7 +3,7 @@ package strategicDevelopers.strategicPlayer;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TwoCoinFourSlotPlayer implements strategicDevelopers.strategicPlayer.StrategicPlayer {
+public class TwoCoinFourSlotPlayer implements StrategicPlayer {
    private static final char HEADS_COIN_STATE = 'H';
    private static final char TAILS_COIN_STATE = 'T';
 
@@ -37,7 +37,7 @@ public class TwoCoinFourSlotPlayer implements strategicDevelopers.strategicPlaye
 
    @Override
    public CharSequence getSlotsToReveal() {
-      if(currentSpinCount%2 == 0)
+      if(currentSpinCount % 2 == 0)
          return "?-?-";
       else
          return "??--";
