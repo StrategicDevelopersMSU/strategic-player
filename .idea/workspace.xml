@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="016a75dd-0829-4ee7-ab48-108405fe1d03" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/jacoco/jacocoagent.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jacoco/jacocoant.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jacoco/jacococli.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jacoco/org.jacoco.agent-0.8.2.201808211720.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jacoco/org.jacoco.ant-0.8.2.201808211720.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jacoco/org.jacoco.core-0.8.2.201808211720.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jacoco/org.jacoco.report-0.8.2.201808211720.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategicDevelopers/strategicPlayer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategicDevelopers/strategicPlayer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategicDevelopers/strategicPlayer/StrategicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategicDevelopers/strategicPlayer/StrategicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/strategicDevelopers/strategicPlayer/revealTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/strategicDevelopers/strategicPlayer/revealTests.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="610703955">
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="strategic-player" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/strategicDevelopers/strategicPlayer/TwoCoinFourSlotPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/strategicDevelopers/strategicPlayer/StrategicPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/strategicDevelopers/strategicPlayer/TwoCoinFourSlotPlayerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/strategicDevelopers/strategicPlayer/revealTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/strategicDevelopers/strategicPlayer/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#105#106#0" expanded="true" />
+                <element signature="e#165#166#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/StrategicPlayer.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/StrategicPlayerImpl.java" />
+        <option value="$PROJECT_DIR$/strategic-player/src/test/java/strategicDevelopers/strategicPlayer/AppTest.java" />
+        <option value="$PROJECT_DIR$/strategic-player/src/main/java/strategicDevelopers/strategicPlayer/App.java" />
+        <option value="$PROJECT_DIR$/strategic-player/src/test/AppTest.java" />
+        <option value="$PROJECT_DIR$/strategic-player/src/main/java/strategicDevelopers/strategicPlayer/StrategicPlayerImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/strategic-player/src/main/java/strategicDevelopers/strategicPlayer/TwoCoinFourSlotPlayer.java" />
+        <option value="$PROJECT_DIR$/strategic-player/src/test/TwoCoinFourSlotPlayerTest.java" />
+        <option value="$PROJECT_DIR$/strategic-player/src/main/java/strategicDevelopers/strategicPlayer/StrategicPlayer.java" />
+        <option value="$PROJECT_DIR$/strategic-player/test/TwoCoinFourSlotPlayerTest.java" />
+        <option value="$PROJECT_DIR$/strategic-player/src/main/strategicDevelopers/strategicPlayer/TwoCoinFourSlotPlayer.java" />
+        <option value="$PROJECT_DIR$/strategic-player/src/main/java/strategicPlayer/App.java" />
+        <option value="$PROJECT_DIR$/strategic-player/src/main/strategicDevelopers/strategicPlayer/StrategicPlayer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/strategicDevelopers/strategicPlayer/TwoCoinFourSlotPlayerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/strategicDevelopers/strategicPlayer/revealTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/strategicDevelopers/strategicPlayer/TwoCoinFourSlotPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/strategicDevelopers/strategicPlayer/StrategicPlayer.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="strategic-player" type="b2602c69:ProjectViewProjectNode" />
+              <item name="strategic-player" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="strategic-player" type="b2602c69:ProjectViewProjectNode" />
+              <item name="strategic-player" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="strategic-player" type="b2602c69:ProjectViewProjectNode" />
+              <item name="strategic-player" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="strategic-player" type="b2602c69:ProjectViewProjectNode" />
+              <item name="strategic-player" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="strategic-player" type="b2602c69:ProjectViewProjectNode" />
+              <item name="strategic-player" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="strategicPlayer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="strategic-player" type="b2602c69:ProjectViewProjectNode" />
+              <item name="strategic-player" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="strategic-player" type="b2602c69:ProjectViewProjectNode" />
+              <item name="strategic-player" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="strategic-player" type="b2602c69:ProjectViewProjectNode" />
+              <item name="strategic-player" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="strategicPlayer" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540320508662" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/strategic-player/src/main" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/strategic-player" />
+      <recent name="$PROJECT_DIR$/strategic-player/src/main/java/strategicDevelopers/strategicPlayer" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.revealTests">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="strategic-player" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoCoinFourSlotPlayerTest.testBeginGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="strategic-player" />
+      <option name="PACKAGE_NAME" value="test.java.strategicDevelopers.strategicPlayer" />
+      <option name="MAIN_CLASS_NAME" value="test.java.strategicDevelopers.strategicPlayer.TwoCoinFourSlotPlayerTest" />
+      <option name="METHOD_NAME" value="testBeginGame" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoCoinFourSlotPlayerTest.testNewCoinStates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="strategic-player" />
+      <option name="PACKAGE_NAME" value="test.java.strategicDevelopers.strategicPlayer" />
+      <option name="MAIN_CLASS_NAME" value="test.java.strategicDevelopers.strategicPlayer.TwoCoinFourSlotPlayerTest" />
+      <option name="METHOD_NAME" value="testNewCoinStates" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="revealTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="strategic-player" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strategicDevelopers.strategicPlayer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="strategicDevelopers.strategicPlayer" />
+      <option name="MAIN_CLASS_NAME" value="strategicDevelopers.strategicPlayer.revealTests" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.TwoCoinFourSlotPlayerTest.testBeginGame" />
+      <item itemvalue="JUnit.TwoCoinFourSlotPlayerTest.testNewCoinStates" />
+      <item itemvalue="JUnit.revealTests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.revealTests" />
+        <item itemvalue="JUnit.TwoCoinFourSlotPlayerTest.testNewCoinStates" />
+        <item itemvalue="JUnit.TwoCoinFourSlotPlayerTest.testBeginGame" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="016a75dd-0829-4ee7-ab48-108405fe1d03" name="Default" comment="" />
+      <created>1539105798323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539105798323</updated>
+      <workItem from="1539105802167" duration="2123000" />
+      <workItem from="1539273470560" duration="4860000" />
+      <workItem from="1539531224075" duration="2482000" />
+      <workItem from="1539648890884" duration="2609000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TwoCoinFourSlotPlayerTest_testBeginGame - 2018.10.11 at 11h 07m 08s.xml">
+      <configuration name="TwoCoinFourSlotPlayerTest.testBeginGame" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TwoCoinFourSlotPlayerTest_testBeginGame - 2018.10.11 at 11h 10m 54s.xml">
+      <configuration name="TwoCoinFourSlotPlayerTest.testBeginGame" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TwoCoinFourSlotPlayerTest_testNewCoinStates - 2018.10.15 at 18h 19m 03s.xml">
+      <configuration name="TwoCoinFourSlotPlayerTest.testNewCoinStates" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TwoCoinFourSlotPlayerTest_testNewCoinStates - 2018.10.15 at 18h 21m 20s.xml">
+      <configuration name="TwoCoinFourSlotPlayerTest.testNewCoinStates" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TwoCoinFourSlotPlayerTest_testNewCoinStates - 2018.10.15 at 18h 22m 03s.xml">
+      <configuration name="TwoCoinFourSlotPlayerTest.testNewCoinStates" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TwoCoinFourSlotPlayerTest_testNewCoinStates - 2018.10.15 at 18h 23m 08s.xml">
+      <configuration name="TwoCoinFourSlotPlayerTest.testNewCoinStates" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TwoCoinFourSlotPlayerTest_testNewCoinStates - 2018.10.15 at 18h 23m 14s.xml">
+      <configuration name="TwoCoinFourSlotPlayerTest.testNewCoinStates" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TwoCoinFourSlotPlayerTest_testNewCoinStates - 2018.10.15 at 18h 26m 07s.xml">
+      <configuration name="TwoCoinFourSlotPlayerTest.testNewCoinStates" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TwoCoinFourSlotPlayerTest_testNewCoinStates - 2018.10.15 at 18h 27m 15s.xml">
+      <configuration name="TwoCoinFourSlotPlayerTest.testNewCoinStates" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="revealTests - 2018.10.16 at 11h 34m 50s.xml">
+      <configuration name="revealTests" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12683000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49469495" visible="true" weight="0.2936508" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.50530505" side_tool="true" weight="0.2825465" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39920425" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="IntelliTail" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32891247" />
+      <window_info anchor="bottom" id="Tail" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297568" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Leiningen" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="REPL" order="10" side_tool="true" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/strategicDevelopers/strategicPlayer/TwoCoinFourSlotPlayer.java</url>
+          <line>53</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/strategicDevelopers/strategicPlayer/TwoCoinFourSlotPlayer.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java" />
+    <entry file="file://$PROJECT_DIR$/strategic-player/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/strategic-player/src/test/java/strategicDevelopers/strategicPlayer/AppTest.java" />
+    <entry file="file://$PROJECT_DIR$/strategic-player/test/AppTest.java" />
+    <entry file="file://$PROJECT_DIR$/strategic-player/src/main/strategicDevelopers/strategicPlayer/App.java" />
+    <entry file="file://$PROJECT_DIR$/strategic-player/src/main/strategicDevelopers/strategicPlayer/StrategicPlayer.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/strategicDevelopers/strategicPlayer/TwoCoinFourSlotPlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategicDevelopers/strategicPlayer/StrategicPlayerImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/strategicDevelopers/strategicPlayer/revealTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategicDevelopers/strategicPlayer/TwoCoinFourSlotPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategicDevelopers/strategicPlayer/StrategicPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
