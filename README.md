@@ -20,7 +20,7 @@ Strategic Player is a strategy application designed to run on top of a specific 
 
 Strategic Player has been migrated from Maven to Ant.
 
-
+Fore more information on Ant, please visit: https://ant.apache.org/
 
 ```
 ant -p
