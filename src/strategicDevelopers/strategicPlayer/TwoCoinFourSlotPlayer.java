@@ -141,4 +141,8 @@ public class TwoCoinFourSlotPlayer implements StrategicPlayer {
    public int getMaxNumSpins() {
       return maxNumSpins;
    }
+   
+   public static void main(String [] args){
+   
+   }
 }
