@@ -292,7 +292,7 @@
         <formatter type="plain" usefile="false" />
         <formatter type="plain"/>
         <batchtest fork="yes" todir="${reports}">
-          <fileset dir="${src}" includes="**/*Test.java"/>
+          <fileset dir="${src}" includes="**/*Test*.java"/>
         </batchtest>
       </junit>
     </jacoco:coverage>

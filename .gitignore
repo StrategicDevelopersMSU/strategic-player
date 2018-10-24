@@ -8,3 +8,4 @@ build/**
 doc/**
 .idea/
 *.iml
+*.exec
