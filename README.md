@@ -14,6 +14,43 @@ Strategic Player is a strategy application designed to run on top of a specific 
 ## Important Notices
 * `master` branch file path is the **only** stable branch.
 
+## Usage
+
+## How To Use
+
+Strategic Player has been migrated from Maven to Ant.
+
+
+
+```
+ant -p
+Buildfile: /strategic-player/build.xml
+
+      Build file for Strategic Developer's implementation of the StrategicPlayer project
+  
+Main targets:
+
+ checkstyle           generate checkstyle report
+ clean                clean up
+ compile              compile the source
+ cpd                  proccess source with CPD
+ dist                 generate the distribution
+ doc                  generate the usage documentation
+ doc-private          generate the maintenance documentation
+ env                  display build parameters
+ format               generate formatted versions of source code
+ optimize             optimize using proguard
+ pmd                  process source with PMD
+ report               format junit test results
+ run                  run driver
+ test                 run junit tests
+ testCoverage         run junit tests with JaCoCo instrumentation
+ testCoverageReport   format JUnit and JaCoCo test results
+ testOptimized        run junit tests using optimized jar
+ testOptimizedReport  format junit test results using optimized jar
+Default target: all
+```
+
 ## Authors
 
 * Travis Rebhan
